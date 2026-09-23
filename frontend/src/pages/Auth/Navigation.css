@@ -1,0 +1,22 @@
+#navigation-container {
+  width: 4.5rem;
+  transition: width 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow: visible;
+}
+
+#navigation-container:hover {
+  width: 14rem;
+}
+
+/* Initially hide nav-item-name */
+.nav-item-name {
+  display: none;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+#navigation-container:hover .nav-item-name {
+  display: inline-block;
+  opacity: 1;
+}

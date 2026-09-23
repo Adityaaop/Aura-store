@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="auraGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="46" stroke="url(#auraGrad)" stroke-width="4" fill="#090a0f" />
+  <path d="M50 20 L76 76 L62 76 L50 48 L38 76 L24 76 Z" fill="url(#auraGrad)" />
+  <circle cx="50" cy="58" r="4" fill="#38bdf8" />
+</svg>

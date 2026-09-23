@@ -1,0 +1,1 @@
+const b = require("buffer"); if (!b.SlowBuffer) b.SlowBuffer = b.Buffer;
