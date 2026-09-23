@@ -11,7 +11,7 @@
     "data:import": "node backend/seeder.js -d && node backend/seeder.js",
     "data:destroy": "node backend/seeder.js -d",
     "start": "node backend/index.js",
-    "build": "npm install --prefix frontend && npm run build --prefix frontend"
+    "build": "npm install --include=dev --prefix frontend && npm run build --prefix frontend"
   },
   "keywords": [
     "ecommerce",
