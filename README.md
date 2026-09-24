@@ -1,16 +1,37 @@
 # AURA — Modern Tech & Minimalist Lifestyle E-Commerce Platform
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-AURA_Store-6366f1?style=for-the-badge&logo=render&logoColor=white)](https://aura-store-aditya-rxg8.onrender.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+[![MERN Stack](https://img.shields.io/badge/Stack-MERN-green.svg?style=for-the-badge)](https://aura-store-aditya-rxg8.onrender.com)
+[![Author: Aditya](https://img.shields.io/badge/Author-Aditya-indigo.svg?style=for-the-badge)](https://github.com/Adityaaop)
+
 A bespoke, full-stack e-commerce web application engineered with the **MERN** stack (MongoDB, Express.js, React, Node.js), Redux Toolkit, and Tailwind CSS. Built with an obsidian dark aesthetic, glassmorphic UI, and seamless shopping workflows.
 
+🔗 **Live Production URL:** [https://aura-store-aditya-rxg8.onrender.com](https://aura-store-aditya-rxg8.onrender.com)
+
 ![AURA Showcase](/auraa.png)
+
+---
+
+## 🌐 Live Demo & Testing Credentials
+
+Experience the live application deployed on Render:
+- **Live Store URL:** [https://aura-store-aditya-rxg8.onrender.com](https://aura-store-aditya-rxg8.onrender.com)
+
+### Pre-Configured Test Accounts:
+| Role | Email | Password | Access Privileges |
+| :--- | :--- | :--- | :--- |
+| **Store Admin** | `admin@aura.store` | `admin123456` | Full Admin Dashboard, Sales Analytics, Product CRUD, User Management |
+| **Demo Customer** | `customer@aura.store` | `customer123456` | Browsing, Cart, Wishlist, Checkout, Order Tracking |
 
 ---
 
 ## ✨ Features
 
 - **⚡ Modern Architecture**: Built on Vite + React 18 frontend and modular Node.js/Express backend.
+- **🔍 Spotlight Search (`Cmd + K`)**: Interactive spotlight modal for instant product discovery across categories and keywords.
 - **🎨 Bespoke Visuals & Dark Aesthetic**: Custom glassmorphism, responsive navigation dock, curated typography, and micro-interactions.
-- **🔐 Secure Authentication**: JWT authentication with http-only cookies, password hashing with bcrypt, and role-based access control (Admin & Customer).
+- **🔐 Secure Authentication**: JWT authentication with http-only secure cookies, password hashing with bcrypt, and role-based access control (Admin & Customer).
 - **🛒 Dynamic Cart & Wishlist**: Real-time cart state management with Redux Toolkit and interactive wishlist/favorites system.
 - **📦 Comprehensive Product Management**: Category filtering, price filtering, brand selectors, multi-image support, stock tracking, and user reviews.
 - **💳 Integrated Checkout & Orders**: Streamlined shipping address capture, order summary, PayPal sandbox checkout, and status tracking (Paid / Delivered).
@@ -23,7 +44,7 @@ A bespoke, full-stack e-commerce web application engineered with the **MERN** st
 ### Frontend
 - **Framework**: React 18 with Vite
 - **State Management**: Redux Toolkit & RTK Query
-- **Styling**: Tailwind CSS & Vanilla CSS Design System
+- **Styling**: Tailwind CSS & Obsidian Dark Glassmorphic Design System
 - **Icons**: React Icons (`react-icons`)
 - **Carousel / Charts**: Slick Carousel & ApexCharts
 - **Payments**: PayPal React SDK
@@ -40,14 +61,14 @@ A bespoke, full-stack e-commerce web application engineered with the **MERN** st
 ## 🚀 Getting Started
 
 ### 1. Prerequisites
-- [Node.js](https://nodejs.org/) (v16+ recommended)
+- [Node.js](https://nodejs.org/) (v18+ recommended)
 - [MongoDB](https://www.mongodb.com/) running locally or MongoDB Atlas URI
 
 ### 2. Environment Setup
-Create a `.env` file in the root directory (or update the provided one):
+Create a `.env` file in the root directory (refer to `.env.example`):
 
 ```env
-PORT=5000
+PORT=5001
 MONGO_URI=mongodb://127.0.0.1:27017/auraStore
 NODE_ENV=development
 JWT_SECRET=your_super_secret_jwt_key
@@ -80,7 +101,7 @@ npm run dev
 ```
 
 - Frontend: `http://localhost:5173`
-- Backend API: `http://localhost:5000`
+- Backend API: `http://localhost:5001`
 
 ---
 
@@ -100,7 +121,7 @@ npm run dev
 ├── frontend/
 │   ├── public/          # Public assets & brand graphics
 │   ├── src/
-│   │   ├── components/  # Reusable UI components (Header, Loader, Modal, etc.)
+│   │   ├── components/  # Reusable UI components (SpotlightSearch, Header, Loader, Modal, etc.)
 │   │   ├── pages/       # Route views (Home, Shop, Cart, ProductDetails, Admin, Auth)
 │   │   ├── redux/       # RTK slices & API endpoints
 │   │   ├── App.jsx      # Main layout wrapper
@@ -114,7 +135,7 @@ npm run dev
 ---
 
 ## 👤 Author
-Developed and maintained by **Aditya**.
+Developed and engineered by **Aditya**.
 
 ---
 
